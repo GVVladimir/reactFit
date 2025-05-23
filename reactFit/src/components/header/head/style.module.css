@@ -1,0 +1,9 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+  min-height: var(--header-height);
+  padding-inline: 32px;
+  background-color: var(--color-dark-alternate);
+}

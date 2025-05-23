@@ -1,0 +1,25 @@
+.header_menu_list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 50px;
+}
+
+.header_menu_link {
+  display: inline-flex;
+  align-items: center;
+  height: var(--header-height);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  column-gap: 7px;
+}
+
+.header_menulink::after {
+  content: "";
+  width: 5px;
+  aspect-ratio: 1;
+  background-color: currentColor;
+  border-radius: 50%;
+}
