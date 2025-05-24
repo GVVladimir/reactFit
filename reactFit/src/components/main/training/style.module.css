@@ -11,6 +11,16 @@
   overflow: hidden !important;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container_wide {
+  max-width: 1920px;
+  margin-inline: auto;
+}
+
 .training_types {
   position: relative;
   padding-top: 80px;
@@ -30,10 +40,17 @@
   align-items: center;
   row-gap: 32px;
   padding-top: var(--trainingTepysBgIconSize);
-  background: url(icons/transparent-wrrow-bottom-left.svg) 100% 0 /
+  background: url(../../../images/icons/transparent-wrrow-bottom-left.svg) 100% 0 /
     var(--trainingTepysBgIconSize) no-repeat;
 }
 
 .training_types_item_title {
   font-size: 16px;
 }
+
+
+
+
+
+
+

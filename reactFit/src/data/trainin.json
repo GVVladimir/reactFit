@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "imgUrl": "images/training-types/1.svg",
+    "name": "Maxpump"
+  },
+  {
+    "id": 2,
+    "imgUrl": "images/training-types/2.svg",
+    "name": "aron gym"
+  },
+  {
+    "id": 3,
+    "imgUrl": "images/training-types/3.svg",
+    "name": "fit & tone"
+  },
+  {
+    "id": 4,
+    "imgUrl": "images/training-types/4.svg",
+    "name": "forza"
+  },
+  {
+    "id": 5,
+    "imgUrl": "images/training-types/5.svg",
+    "name": "balance fitness"
+  },
+  {
+    "id": 6,
+    "imgUrl": "images/training-types/6.svg",
+    "name": "body sculpt"
+  }
+]

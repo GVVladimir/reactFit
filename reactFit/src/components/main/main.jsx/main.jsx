@@ -1,7 +1,7 @@
 import Banner from "../banner/banner";
 import style from "./style.module.css";
 import Motivation from "../motivation/motivation";
-import Trainin from "../training/training";
+import TraininAll from "../training/training";
 
 const MainBody = () => {
   return (
@@ -9,7 +9,7 @@ const MainBody = () => {
       <h1 className={style.visually_hidden}>Kropp Fitness Club</h1>
       <Banner />
       <Motivation />
-      <Trainin />
+      <TraininAll />
     </main>
   );
 };

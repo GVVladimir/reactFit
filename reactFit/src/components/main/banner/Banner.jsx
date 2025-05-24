@@ -9,8 +9,8 @@ const Banner = () => {
       <div className={style.banner_body}>
         <div className={style.banner_info}>
           New event <br />
-          coming up /<time datetime="06-07">june 7</time>&nbsp;-&nbsp;
-          <time datetime="06-13">13</time>
+          coming up /<time dateTime="06-07">june 7</time>&nbsp;-&nbsp;
+          <time dateTime="06-13">13</time>
         </div>
         <h3 className={style.banner_title}>Crossfit</h3>
       </div>
