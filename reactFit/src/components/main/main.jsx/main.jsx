@@ -4,6 +4,8 @@ import Motivation from "../motivation/motivation";
 import TraininAll from "../training/training";
 import JoinUs from "../joinUs/join";
 import Location from "../location/location";
+import Family from "../family/family";
+import CalculateBlock from "../calculate/calculateBlok";
 
 const MainBody = () => {
   return (
@@ -14,6 +16,8 @@ const MainBody = () => {
       <TraininAll />
       <JoinUs/>
       <Location/>
+      <Family/>
+      <CalculateBlock/>
     </main>
   );
 };

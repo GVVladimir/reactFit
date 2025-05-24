@@ -8,7 +8,7 @@ const JoinUs = () => {
     <section className={style.join_us}>
       <div className={style.join_us_video_wrapper}>
         <video
-          src=""
+          src={video}
           className={style.join_us_video}
           width="960"
           height="600"
