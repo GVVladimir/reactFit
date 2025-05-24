@@ -2,6 +2,8 @@ import Banner from "../banner/banner";
 import style from "./style.module.css";
 import Motivation from "../motivation/motivation";
 import TraininAll from "../training/training";
+import JoinUs from "../joinUs/join";
+import Location from "../location/location";
 
 const MainBody = () => {
   return (
@@ -10,6 +12,8 @@ const MainBody = () => {
       <Banner />
       <Motivation />
       <TraininAll />
+      <JoinUs/>
+      <Location/>
     </main>
   );
 };
