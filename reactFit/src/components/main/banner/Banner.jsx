@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <section className={style.banner}>
       <h2 className={style.visually_hidden}>Upcoming events</h2>
-      <div className={style.banner_body}>
+      <div className={cx(style.banner_body, style.container)}>
         <div className={style.banner_info}>
           New event <br />
           coming up /<time dateTime="06-07">june 7</time>&nbsp;-&nbsp;

@@ -22,6 +22,10 @@
   font-display: swap;
 }
 
+li{
+  list-style-type: none;
+}
+
 /**
   Нормализация блочной модели
  */

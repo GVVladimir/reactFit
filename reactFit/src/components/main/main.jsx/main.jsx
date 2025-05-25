@@ -6,6 +6,7 @@ import JoinUs from "../joinUs/join";
 import Location from "../location/location";
 import Family from "../family/family";
 import CalculateBlock from "../calculate/calculateBlok";
+import Footer from "../../footer/footer";
 
 const MainBody = () => {
   return (
@@ -18,6 +19,7 @@ const MainBody = () => {
       <Location/>
       <Family/>
       <CalculateBlock/>
+      <Footer/>
     </main>
   );
 };

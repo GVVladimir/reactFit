@@ -26,12 +26,14 @@ img {
   padding-top: 80px;
   padding-bottom: 120px;
   background-color: var(--color-dark);
+  
 }
 
 .training_types_list {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 60px;
+  
 }
 .training_types_item {
   --trainingTepysBgIconSize: 80px;
@@ -48,6 +50,28 @@ img {
   font-size: 16px;
 }
 
+@media (max-width: 1280px) {
+  .training_types_list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .training_types_list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .training_types_item {
+    --trainingTepysBgIconSize: 50px;
+    row-gap: 10px;
+  }
+  .training_types_image {
+    max-width: 120px;
+  }
+
+  
+}
 
 
 

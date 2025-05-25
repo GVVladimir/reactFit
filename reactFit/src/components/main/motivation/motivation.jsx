@@ -3,7 +3,10 @@ import cx from "classnames";
 import one from "../../../images/motivation/1.jpg";
 import two from "../../../images/motivation/2.jpg";
 
+
+
 const Motivation = () => {
+
   return (
     <section className={style.motivation}>
       <h2 className={style.visually_hidden}>Motivation</h2>

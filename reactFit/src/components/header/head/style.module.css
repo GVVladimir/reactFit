@@ -7,3 +7,218 @@
   padding-inline: 32px;
   background-color: var(--color-dark-alternate);
 }
+
+.container {
+  max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+  margin-inline: auto;
+  padding-inline: var(--container-padding-x);
+}
+
+@media (max-width: 1919px) {
+  .motivation_card_image {
+    margin-block: -20px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .training_types_list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    flex-wrap: wrap;
+    row-gap: 10px;
+    padding-top: 20px;
+  }
+  .header,
+  .banner {
+    padding-inline: 15px;
+  }
+
+  .header_menu {
+    order: 1;
+    flex-basis: 100%;
+  }
+
+  .header_menu_link {
+    height: 50px;
+  }
+  .banner {
+    row-gap: 10px;
+  }
+
+  .motivation_card {
+    padding-block: 50px;
+  }
+
+  .motivation_card_image {
+    min-width: 30%;
+    height: auto;
+    margin-block: 0;
+  }
+
+  .join_us_body {
+    padding-bottom: 80px;
+  }
+
+  .join_us_title:not(:last-child) {
+    margin-bottom: 80px;
+  }
+  .location {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .family_image {
+    height: 360px;
+  }
+
+  .calculate {
+    padding-block: 100px;
+  }
+
+  .calculate_form_body {
+    grid-template-columns: 1fr;
+  }
+
+  .calculate_button {
+    width: 100%;
+  }
+
+  .calculate_table :is(td, th) {
+    padding-block: 10px;
+  }
+
+  .calculate_table tfoot td {
+    padding-top: 10px;
+  }
+
+  .calculate_table_wrapper::before {
+    display: none;
+  }
+
+  .footer_main {
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+
+  .footer_body{
+    grid-template-columns: repeat(2, 1pr);
+    column-gap: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .button {
+    padding-inline: 18px;
+  }
+  .header {
+    padding-top: 10px;
+  }
+  .header_menu_list {
+    height: 32px;
+    column-gap: 24px;
+  }
+  .header_actions {
+    column-gap: 15px;
+  }
+
+  .banner_info {
+    margin-bottom: 5px;
+  }
+
+  .banner_info::before {
+    margin-right: 10px;
+  }
+
+  .motivation_card,
+  .motivation_item:nth-child(even) .motivation_card {
+    flex-direction: column-reverse;
+  }
+
+  .motivation_card {
+    row-gap: 30px;
+    padding-block: 30px;
+  }
+  .motivation_card_image {
+    min-width: 60%;
+  }
+
+  .motivation_card_description:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .training_types_list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .training_types_item {
+    --trainingTepysBgIconSize: 50px;
+    row-gap: 10px;
+  }
+  .training_types_image {
+    max-width: 120px;
+  }
+
+  .join_us_video_play_button {
+    width: 140px;
+  }
+
+  .join_us_title:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  .section_description {
+    font-size: 16px;
+  }
+
+  .join_us_form_body {
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .location_body {
+    padding-block: 40px;
+  }
+
+  .location_description:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .family_image {
+    height: 180px;
+  }
+
+  .family_header {
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+
+  .family_body {
+    column-gap: 12px;
+  }
+
+  .calculate_inner {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .footer_body{
+    grid-template-columns: 1fr;
+  }
+
+  .footer_main{
+    padding-top: 50px;
+  }
+
+  .footer_header:not(:last-child){
+    margin-bottom: 30px;
+  }
+
+  .footer_subscribe:not(:last-child){
+    margin-bottom: 40px;
+  }
+}

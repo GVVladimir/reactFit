@@ -74,7 +74,8 @@ input:invalid {
   right: 0;
   height: 100%;
   aspect-ratio: 1;
-  background: url(../../../images/icons/arrow-top-right.svg) center/70% no-repeat;
+  background: url(../../../images/icons/arrow-top-right.svg) center/70%
+    no-repeat;
   border: var(--border);
   border-radius: 50%;
 }
@@ -231,4 +232,38 @@ input:invalid {
   text-align: center;
   text-transform: uppercase;
   color: var(--color-light);
+}
+
+@media (max-width: 1024px) {
+
+  .join_us_body {
+    padding-bottom: 80px;
+  }
+
+  .join_us_title:not(:last-child) {
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .button {
+    padding-inline: 18px;
+  }
+  .join_us_video_play_button {
+    width: 140px;
+  }
+
+  .join_us_title:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  .section_description {
+    font-size: 16px;
+  }
+
+  .join_us_form_body {
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+  }
 }

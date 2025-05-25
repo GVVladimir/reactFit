@@ -81,3 +81,32 @@
 .family_image {
   scroll-snap-align: start;
 }
+
+
+
+@media (max-width: 1024px) {
+  
+
+  .family_image {
+    height: 360px;
+  }
+
+  
+}
+
+@media (max-width: 767px) {
+
+  .family_image {
+    height: 180px;
+  }
+
+  .family_header {
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+
+  .family_body {
+    column-gap: 12px;
+  }
+
+}

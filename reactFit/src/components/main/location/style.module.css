@@ -120,3 +120,25 @@
 .location_description:not(:last-child) {
   margin-bottom: 37px;
 }
+
+
+@media (max-width: 1024px) {
+  
+  .location {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+}
+
+@media (max-width: 767px) {
+ 
+  .location_body {
+    padding-block: 40px;
+  }
+
+  .location_description:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+}
