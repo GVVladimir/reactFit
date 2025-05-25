@@ -1,6 +1,6 @@
 import style from "./style.module.css";
 import cx from "classnames";
-import allTrainings from "../../../data/trainin.json";
+import allTrainings from "../../data/trainin.json";
 import "../../../App.css";
 import "../../../index.css";
 
